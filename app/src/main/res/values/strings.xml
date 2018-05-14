@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StepCounter</string>
+    <string name="start_count">Start Count</string>
+    <string name="track_steps">Track Steps</string>
+    <string name="help">Help</string>
+    <string name="game_exit">Exit</string>
+    <string name="counter">Counter</string>
+    <string name="inch_step">Inch/Step</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear Data</string>
+    <string name="inch_value">10</string>
+    <string name="calories">Calories Burnt</string>
+    <string name="avg_speed">Avg Speed</string>
+    <string name="time">Time</string>
+    <string name="step_count">Steps Walked</string>
+    <string name="app_help"> Instructions \n\n
+        1. StepCounter App helps track your step count along with calories burnt, avg speed and time taken in the trip taken. \n \n
+        2. Under Track Steps you can find step count history. \n \n
+                                    Enjoy Walking :)
+    </string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPeach"
+    tools:context="tumblrr.utd.com.stepcounter.MainActivity">
+
+    <TextView
+        android:id="@+id/text_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="14sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="14sp"
+        android:text="@string/calories"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/text_calories"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/text_avgspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_calories"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="14sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="14sp"
+        android:text="@string/avg_speed"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/avgspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calories"
+        android:text="0"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/text_avgspeed"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/text_stepcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_avgspeed"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="14sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="14sp"
+        android:text="@string/step_count"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/stepCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avgspeed"
+        android:text="0"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/text_avgspeed"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_stepcount"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="14sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="14sp"
+        android:text="@string/time"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepCount"
+        android:text="0"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/text_avgspeed"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:background="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

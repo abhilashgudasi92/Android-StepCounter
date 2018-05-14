@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPeach"
+    tools:context="tumblrr.utd.com.stepcounter.HelpActivity">
+
+    <TextView
+        android:id="@+id/App_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:paddingTop="25sp"
+        android:paddingBottom="25sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:background="@color/colorPrimary"
+        android:text="@string/app_help"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/clear_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/App_help"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/clear"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:background="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_below="@+id/clear_data"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

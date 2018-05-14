@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPeach"
+    tools:context="tumblrr.utd.com.stepcounter.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_walk"
+        android:layout_width="317dp"
+        android:layout_height="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/walk"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/button_track"
+        android:layout_below="@+id/image_walk"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/start_count" />
+
+    <Button
+        android:id="@+id/button_track"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/track_steps"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/button_start"/>
+
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/image_walk"
+        android:layout_below="@+id/button_track"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/help" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_help"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/countingsteps" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/image_walk"
+        android:layout_below="@+id/button_track"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/game_exit" />
+
+</RelativeLayout>
